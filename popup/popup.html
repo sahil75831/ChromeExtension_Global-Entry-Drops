@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Global Entry Drops</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1>Global Entry Drops</h1>
+        <span class="status_title base">Status</span>
+        <div>
+          <span class="status_content">Stopped</span>
+          <span class="status_content">Running</span>
+        </div>
+        <div class="filedContainer">
+          <div class="field">
+            <label for="select" class="label base"> Location ID 🪧</label>
+            <div class="select">
+              <select name="" id="locationId">
+                <option value="los_angelas">Los Angelal</option>
+                <option value="seattle">Seattle</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="startDateInput" class="label base"> Start Date 📅</label>
+            <div class="startDateInput">
+              <input type="date" class="input" id="startDate">
+            </div>
+          </div>
+          <div class="field">
+            <label for="endDateInput" class="label base"> End Date 📅</label>
+            <div class="endDateInput">
+              <input type="date" class="input" id="endDate">
+            </div>
+          </div>
+          <div class="field_button">
+            <button class="button is-success" id="startButton">Save & Start</button>
+            <button class="button is-danger" id="stopButton">Stop</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="popup.js"></script>
+</html>

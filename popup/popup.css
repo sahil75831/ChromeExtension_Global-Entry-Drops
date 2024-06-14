@@ -1,0 +1,94 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    .container {
+        width: 450px;
+        height: 550px;
+        
+        >h1 {
+            margin-top: 0px;
+            font-size: xx-large;
+            font-style: normal;
+            font-weight: 100;
+        }
+
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        /* border: 4px solid dodgerblue; */
+        padding: 1rem;
+
+    }
+
+    .status_title {
+        letter-spacing: 2px;
+    }
+
+    .status_content {
+        background-color: darkslateblue;
+        padding: 0.51rem 1rem;
+        color: white;
+        font-weight: 600;
+        text-transform: capitalize;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .filedContainer {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+
+        >div {
+            display: flex;
+            flex-direction: column;
+            >label {
+                width: 10rem;
+            }
+        }
+    }
+}
+.field_button{
+    display: flex;
+    flex-direction: row;
+    gap: .32rem;
+    /* border: 2px solid red; */
+}
+button {
+    background-color: darkslateblue;
+    padding: 0.91rem 1rem;
+    color: white;
+    font-weight: 200;
+    text-transform: capitalize;
+    border-radius: 8px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: 4px 4px 8px rgb(68,68,68);
+}
+.base {
+    font-size: large;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+input {
+    width: 92%;
+    border: 1px solid gainsboro;
+    padding: .71rem;
+    border-radius: 10px;
+}
+
+.is-success:hover{
+    background-color: rgb(107, 179, 107);
+}
+
+#locationId {
+    width: 97%;
+    border: 1px solid gainsboro;
+    padding: .71rem;
+    border-radius: 10px;
+
+}
